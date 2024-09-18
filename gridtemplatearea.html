@@ -12,9 +12,12 @@
     <style>
         body{
             background-image:linear-gradient(rgb(116, 7, 116), rgb(202, 134, 8));
+           background-size: 100%;
+           background-repeat: no-repeat;
         }
         .md{
-            padding-top: 15px;;
+            padding: 10px;
+           
            border: 2px solid red;
             /* height: 470px;
             width: 400px; */
@@ -24,7 +27,7 @@
             'area1 area5 area6'
             'area4 area5 area6'
             'area4 area5 area7';
-            gap:10px;
+            gap:1px;
             
     
             
@@ -32,15 +35,16 @@
         img{
             
              height: 90%;
-            width: 100%;
+            width: 90%;
             gap:10px;
             
             
         }
         img:hover{
-            width:101%;
-            height: 100%;
-            box-shadow:0px 1px 1px 8px ;
+            height: 94%;
+            width:95%;
+            box-shadow:0px 1px 1px 5px ;
+            
            
         }
         .cd1{
@@ -66,15 +70,20 @@
         .cd7{
             grid-area: area7;
         }
+        h2{
+            background-color: chartreuse; 
+            color: chocolate; 
+            padding:10px;
+        }
         h2:hover{
             color: brown;
             background-color: azure;
         }
-        
+       
     </style>
 </head>
 <body>
-    <marquee behavior="" direction=""><center><h2 style="background-color: chartreuse; color: chocolate; padding:10px;">Grid Template Area </h2></center></marquee>
+    <marquee behavior="" direction=""><center><h2>Grid Template Areas </h2></center></marquee>
    <center> <div class="md">
         <div class="cd1 "><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBXyh7Ev1vsD7UdvZuJHeGzOewrN_WVwZqw&s"/></div>
         <div class="cd2 "><img src="https://m.media-amazon.com/images/I/71iwTKl6-xL._AC_UF894,1000_QL80_.jpg"/></div>
