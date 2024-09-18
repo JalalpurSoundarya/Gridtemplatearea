@@ -1,0 +1,88 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:linear-gradient(rgb(116, 7, 116), rgb(202, 134, 8));
+        }
+        .md{
+            padding-top: 15px;;
+           border: 2px solid red;
+            /* height: 470px;
+            width: 400px; */
+            display: grid;
+             grid-template-areas:
+            'area1 area2 area3'
+            'area1 area5 area6'
+            'area4 area5 area6'
+            'area4 area5 area7';
+            gap:10px;
+            
+    
+            
+        }
+        img{
+            
+             height: 90%;
+            width: 100%;
+            gap:10px;
+            
+            
+        }
+        img:hover{
+            width:101%;
+            height: 100%;
+            box-shadow:0px 1px 1px 8px ;
+           
+        }
+        .cd1{
+            grid-area: area1;
+            
+        }
+        .cd2{
+            grid-area: area2;
+        }
+        .cd3{
+            grid-area: area3;
+            
+        }
+        .cd4{
+            grid-area: area4;
+        }
+        .cd5{
+            grid-area: area5;
+        }
+        .cd6{
+            grid-area: area6;
+        }
+        .cd7{
+            grid-area: area7;
+        }
+        h2:hover{
+            color: brown;
+            background-color: azure;
+        }
+        
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction=""><center><h2 style="background-color: chartreuse; color: chocolate; padding:10px;">Grid Template Area </h2></center></marquee>
+   <center> <div class="md">
+        <div class="cd1 "><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkBXyh7Ev1vsD7UdvZuJHeGzOewrN_WVwZqw&s"/></div>
+        <div class="cd2 "><img src="https://m.media-amazon.com/images/I/71iwTKl6-xL._AC_UF894,1000_QL80_.jpg"/></div>
+        <div class="cd3 "><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQBh7wrQ18QzDzfAHq9ew-pjiu4r2ww5dqXoWGDxoTxc761bAp0PksP-vnAmZ1rz3hnZ04cowOSMQwpB5OA-4IXQun0dHDV5sYK4wDQ95UeiSLoYdjEgcW-tg"/></div>
+        <div class="cd4 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk0sF0q0gViHuze2ksd30anhMY_l_Io5lww&s"/></div>
+        <div class="cd5 "><img src="https://us.123rf.com/450wm/nikkytok/nikkytok2111/nikkytok211100025/177994974-desk-lamp-on-the-table-gray-background-with-copy-space.jpg?ver=6"/></div>
+        <div class="cd6 "><img src="https://img.freepik.com/premium-photo/black-male-sunglasses-isolated-gray-background_98725-2011.jpg"/></div>
+        <div class="cd7 "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Cm8a41-4JgXN82ytkupsEwPgwx9Jm3VYmA&s"/></div></center>
+    </div>
+</body>
+</html>
